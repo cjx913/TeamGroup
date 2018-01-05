@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Oracle_teamgroup">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="TEAMGROUP">
+      <ObjectId>48</ObjectId>
+      <IntrospectionTimestamp>2017-12-23.10:54:07</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-12-22.15:50:54</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:54:07</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>29</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="20" parent="2" name="SEQ_CHATMESSAGEID">
+      <ObjectId>20082</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:48:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:48:12</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="21" parent="2" name="SEQ_GROUPID">
+      <ObjectId>20081</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:47:25</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:47:25</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="22" parent="2" name="SEQ_USERID">
+      <ObjectId>20080</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:46:55</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:46:55</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <table id="23" parent="2" name="CHATMESSAGE">
+      <ObjectId>20061</ObjectId>
+      <CreatedTimestamp>2017-12-22.15:50:54</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:54:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="24" parent="2" name="CONTACTS">
+      <ObjectId>20062</ObjectId>
+      <CreatedTimestamp>2017-12-22.15:51:11</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:36:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="25" parent="2" name="GROUPS">
+      <ObjectId>20067</ObjectId>
+      <CreatedTimestamp>2017-12-22.16:06:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:53:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="26" parent="2" name="GROUP_USER">
+      <ObjectId>20063</ObjectId>
+      <CreatedTimestamp>2017-12-22.15:51:30</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:34:52</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="27" parent="2" name="SCHEDULES">
+      <ObjectId>20065</ObjectId>
+      <CreatedTimestamp>2017-12-22.15:53:13</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-22.23:03:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="28" parent="2" name="USERS">
+      <ObjectId>20072</ObjectId>
+      <CreatedTimestamp>2017-12-22.22:58:54</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:52:03</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="29" parent="23" name="MESSAGEID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="23" name="FROMID">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+    </column>
+    <column id="31" parent="23" name="TOID">
+      <Position>3</Position>
+      <DataType>NUMBER(19)|0</DataType>
+    </column>
+    <column id="32" parent="23" name="MESSAGE">
+      <Position>4</Position>
+      <DataType>VARCHAR2(100 char)|0</DataType>
+    </column>
+    <column id="33" parent="23" name="SENDTIME">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="34" parent="23" name="CHATMESSAGE_MESSAGEID_PK">
+      <ObjectId>20079</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:40:58</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:40:58</ModifiedTimestamp>
+      <TablespaceName>TP_TEAMGROUP</TablespaceName>
+      <ColNames>MESSAGEID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="35" parent="23" name="CHATMESSAGE_MESSAGEID_PK">
+      <ModifiedTimestamp>2017-12-23.10:40:58</ModifiedTimestamp>
+      <ColNames>MESSAGEID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CHATMESSAGE_MESSAGEID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="36" parent="23" name="CHATMESSAGE_USERS_TO_ID_FK">
+      <ModifiedTimestamp>2017-12-23.10:42:03</ModifiedTimestamp>
+      <ColNames>FROMID</ColNames>
+      <RefSchemaName>TEAMGROUP</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefKeyName>SYS_C007004</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="37" parent="23" name="CHATMESSAGE_USERS_FROM_ID_FK">
+      <ModifiedTimestamp>2017-12-23.10:42:03</ModifiedTimestamp>
+      <ColNames>TOID</ColNames>
+      <RefSchemaName>TEAMGROUP</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefKeyName>SYS_C007004</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <trigger id="38" parent="23" name="TRI_CHATMESSAGEID_INCSERT">
+      <ObjectId>20085</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:54:07</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:54:07</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="39" parent="24" name="USER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="24" name="CONTACT_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="41" parent="24" name="CONTACTS_USER_ID_CONTACT_ID_PK">
+      <ObjectId>20078</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:36:06</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:36:06</ModifiedTimestamp>
+      <TablespaceName>TP_TEAMGROUP</TablespaceName>
+      <ColNames>USER_ID
+CONTACT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="42" parent="24" name="CONTACTS_USER_ID_CONTACT_ID_PK">
+      <ModifiedTimestamp>2017-12-23.10:36:06</ModifiedTimestamp>
+      <ColNames>USER_ID
+CONTACT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CONTACTS_USER_ID_CONTACT_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="43" parent="24" name="CONTACTS_USERS_USER_ID_FK">
+      <ModifiedTimestamp>2017-12-23.10:36:06</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>TEAMGROUP</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefKeyName>SYS_C007004</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="44" parent="24" name="CONTACTS_USERS_CONTACT_FK">
+      <ModifiedTimestamp>2017-12-23.10:36:06</ModifiedTimestamp>
+      <ColNames>CONTACT_ID</ColNames>
+      <RefSchemaName>TEAMGROUP</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefKeyName>SYS_C007004</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="45" parent="25" name="GROUP_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL </DefaultExpression>
+    </column>
+    <column id="46" parent="25" name="GROUP_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 char)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL </DefaultExpression>
+    </column>
+    <column id="47" parent="25" name="MANAGER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL </DefaultExpression>
+    </column>
+    <index id="48" parent="25" name="GROUPS_GROUP_ID_PK">
+      <ObjectId>20076</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:33:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:33:40</ModifiedTimestamp>
+      <TablespaceName>TP_TEAMGROUP</TablespaceName>
+      <ColNames>GROUP_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="49" parent="25" name="GROUPS_GROUP_ID_PK">
+      <ModifiedTimestamp>2017-12-23.10:33:40</ModifiedTimestamp>
+      <ColNames>GROUP_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>GROUPS_GROUP_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="50" parent="25" name="GROUPS_USERS_USER_ID_FK">
+      <ModifiedTimestamp>2017-12-23.10:33:40</ModifiedTimestamp>
+      <ColNames>MANAGER_ID</ColNames>
+      <RefSchemaName>TEAMGROUP</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefKeyName>SYS_C007004</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <trigger id="51" parent="25" name="TRI_GROUPID_INCSERT">
+      <ObjectId>20084</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:53:08</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:53:08</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="52" parent="26" name="GROUP_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL </DefaultExpression>
+    </column>
+    <column id="53" parent="26" name="USER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL </DefaultExpression>
+    </column>
+    <index id="54" parent="26" name="GROUP_USER_GROUP_ID_USER_ID_PK">
+      <ObjectId>20077</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:34:52</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:34:52</ModifiedTimestamp>
+      <TablespaceName>TP_TEAMGROUP</TablespaceName>
+      <ColNames>GROUP_ID
+USER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="26" name="GROUP_USER_GROUP_ID_USER_ID_PK">
+      <ModifiedTimestamp>2017-12-23.10:34:52</ModifiedTimestamp>
+      <ColNames>GROUP_ID
+USER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>GROUP_USER_GROUP_ID_USER_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="56" parent="26" name="GROUP_USER_GROUPS_GROUP_ID_FK">
+      <ModifiedTimestamp>2017-12-23.10:34:52</ModifiedTimestamp>
+      <ColNames>GROUP_ID</ColNames>
+      <RefSchemaName>TEAMGROUP</RefSchemaName>
+      <RefTableName>GROUPS</RefTableName>
+      <RefKeyName>GROUPS_GROUP_ID_PK</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="57" parent="26" name="GROUP_USER_USERS_USER_ID_FK">
+      <ModifiedTimestamp>2017-12-23.10:34:52</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>TEAMGROUP</RefSchemaName>
+      <RefTableName>USERS</RefTableName>
+      <RefKeyName>SYS_C007004</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="58" parent="27" name="SCHEDULES_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+    </column>
+    <column id="59" parent="27" name="USER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+    </column>
+    <column id="60" parent="27" name="DATE_TIME">
+      <Position>3</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="61" parent="27" name="EVENT">
+      <Position>4</Position>
+      <DataType>VARCHAR2(100 char)|0</DataType>
+    </column>
+    <column id="62" parent="28" name="USER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="28" name="USER_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="28" name="USER_PASSWORD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="28" name="USER_EMAIL">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="28" name="CORPORATION">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="67" parent="28" name="DUTY">
+      <Position>6</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <index id="68" parent="28" name="SYS_C007004">
+      <ObjectId>20073</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-22.22:58:54</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-22.22:58:54</ModifiedTimestamp>
+      <TablespaceName>TP_TEAMGROUP</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="69" parent="28" name="SYS_C007004">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-12-22.22:58:54</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007004</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="70" parent="28" name="TRI_USERID_INCSERT">
+      <ObjectId>20083</ObjectId>
+      <CreatedTimestamp>2017-12-23.10:52:03</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-23.10:52:03</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+  </database-model>
+</dataSource>

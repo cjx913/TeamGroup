@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#basic_information {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    height: 150px;
+    background-color: cornsilk;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+#basic_information table {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 100%;
+}
+
+
+#basic_information table tr,td {
+    text-align: left;
+}
+
+#basic_information img {
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    vertical-align: top;
+}
+
+#schedule_information {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    height: auto;
+    background-color: cornsilk;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+#schedule_information .time {
+    padding-right: 15px;
+    text-align: right;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#schedule_information .event {
+    padding-left: 15px;
+    text-align: left;
+    width: auto;
+    height: auto;
+    line-height: 40px;
+}
+
+#contacts_manage {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    height: auto;
+    background-color: cornsilk;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+#contacts_manage table {
+    width: 100%;
+}
+
+#contacts_manage table tr td {
+    text-align: left;
+    margin-right: 10px;
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 15px;
+    background-color: beige;
+    font-size: 20px;
+}
+
+#contacts_manage img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 1px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#teamgroup_manage {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    height: auto;
+    background-color: cornsilk;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+#teamgroup_manage table {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+#teamgroup_manage table td {
+    text-align: center;
+}
+
+#modify_information {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    height: auto;
+    background-color: cornsilk;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 1px 1px 10px #000;
+}

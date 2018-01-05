@@ -1,0 +1,112 @@
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#mainbody {
+    margin-left: 23%;
+    height: 100%;
+    /*background-color: olive;*/
+    overflow:hidden;
+}
+
+#mainbody iframe{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#navbar {
+    /*box-sizing: border-box;*/
+    float: left;
+    min-width: 250px;
+    width: 23%;
+    height: 100%;
+    overflow: auto;
+    background-color: beige;
+}
+
+#navbar::-webkit-scrollbar {
+    width: 0px;
+    border: 0px;
+}
+
+#personal {
+    height: 150px;
+}
+
+#avatar {
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#name {
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    padding-top: 25px;
+    width: 80px;
+    height: auto;
+    vertical-align: top;
+}
+
+#action {
+    padding-top: 10px;
+    width: 100%;
+    /*overflow-y: auto;*/
+}
+#action ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 100%;
+}
+
+#action ul a{
+    text-decoration: none;
+}
+
+#action ul li {
+    box-sizing: border-box;
+    line-height: 50px;
+    height: 50px;
+    padding-left: 15px;
+    width: 100%;
+    color: aqua;
+    font-size: larger;
+    font-family: "Adobe 仿宋 Std R";
+    font-weight: bold;
+}
+
+#action #groups{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#action #groups ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0px;
+    width: 100%;
+}
+
+#groups ul li {
+    line-height: 40px;
+    height: 40px;
+    padding-left: 40px;
+    width: 100%;
+    color: coral;
+    font-size: larger;
+    font-family: "幼圆";
+    font-weight: bold;
+}
+
